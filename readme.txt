@@ -1,1 +1,0 @@
-Deploy the folder Argos in any web server.
