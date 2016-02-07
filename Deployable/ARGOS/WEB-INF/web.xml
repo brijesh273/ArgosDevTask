@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	id="WebApp_ID" metadata-complete="true" version="3.0"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name>ARGOS Top Ten Products</display-name>
+	<servlet>
+		<servlet-name>ExtractHUKDData</servlet-name>
+		<servlet-class>drivers.ExtractHUKDData</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExtractHUKDData</servlet-name>
+		<url-pattern>/ExtractHUKDData</url-pattern>
+	</servlet-mapping>
+</web-app>
